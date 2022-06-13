@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(221, 221, 221);
 }
@@ -41,7 +42,6 @@ a:hover{
 
 
 footer {
-    background-color: ;
     color: black ;
     margin-top: 30px;
     margin-bottom: 30px;
