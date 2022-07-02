@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-
 :root {
   font-size: 15px;
 }
@@ -41,19 +39,9 @@ body {
   background-position: -80vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax,
     -30vmax -10vmax, 50vmax 50vmax;
   background-repeat: no-repeat;
-  animation: 5s movement linear infinite;
+  animation: 4s movement linear infinite;
 }
 
-body::after {
-  content: "";
-  display: block;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-
-}
 
 
 @keyframes movement {
@@ -93,16 +81,15 @@ body::after {
 }
 nav{
     
-    text-align: center;
+    text-align:end ;
 
 }
 .menu li {
     display: inline;
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 35px;
     padding: 20px;
 
-    
     
 }
 
@@ -111,18 +98,27 @@ a {
     text-decoration: none;
     transition: all .25s ease;
 }
-a:hover{
-    color: rgb(43, 90, 131);
+a:hover {
+    color: rgb(255, 255, 255);
 }
-
-
 
 footer {
     color: black ;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: x-large;
 }
 
+body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  
+  }
+  
