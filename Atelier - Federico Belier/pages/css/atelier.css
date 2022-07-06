@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Questrial&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,12 @@
 :root {
   font-size: 15px;
 }
-/*
+
+#index{
+  background-color: black;
+}
+
+
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
@@ -41,7 +48,7 @@ body {
   background-repeat: no-repeat;
   animation: 4s movement linear infinite;
 }
-*/
+
 
 
 @keyframes movement {
@@ -72,8 +79,11 @@ body {
   }
 }
 
-body{
-  background-color: black;
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #tittle-logo {
@@ -84,43 +94,47 @@ body{
     margin: 10px;
     padding-left: 30px;
     padding-top: 20px;
-}
-nav{
     
+}
+#menu {
+    display: flex;
     text-align:end ;
+    padding-top: 3rem;
 
 }
-.menu li {
+.menu_items li{
     display: inline;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
     padding: 30px;
-
-    
 }
 
-a {
-    color:blanchedalmond ;
+.menu_links {
+    color:blanchedalmond;
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(88, 146, 96);
-    transition: all .25s ease;
+.menu_links :hover {
+    border-color: blanchedalmond;
+    font-size: 2rem;
+    transition: 2s;
+   
 }
 
 #landing {
-  height: 800px;
+  display: flex;
+  height: 700px;
 }
 
 
 
 footer {
+  display: flex;
     color: blanchedalmond ;
-    background-color: black;
+    
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
+    justify-content: center;
     font-family: 'Questrial', sans-serif;
     font-size: 15px;
 }
@@ -143,4 +157,11 @@ body::after {
     body {
       background-color: black;
     }
+
+    #tittle-logo {
+      
+      font-size: 2rem;
+    }
+
   }
+  
